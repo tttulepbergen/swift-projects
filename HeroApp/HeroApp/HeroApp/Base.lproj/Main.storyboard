@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HeroApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hero" translatesAutoresizingMaskIntoConstraints="NO" id="Ec8-Il-fBk">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7WR-Rz-6b6">
+                                <rect key="frame" x="16" y="75" width="361" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="YRh-dg-Mgw"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlc-Kl-3ZA">
+                                <rect key="frame" x="16" y="391" width="361" height="25.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
+                                <color key="textColor" red="0.10429594590000001" green="0.1053275316" blue="0.86078912019999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tW6-zs-krH" userLabel="Hero Powerstats">
+                                <rect key="frame" x="16" y="414" width="361" height="80"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXA-Vw-yn1" userLabel="Hero Appearance ">
+                                <rect key="frame" x="16" y="500" width="361" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nab-Ua-EbG" userLabel="Hero Biography ">
+                                <rect key="frame" x="16" y="600" width="361" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OpO-HF-NBZ">
+                                <rect key="frame" x="16" y="750" width="361" height="52"/>
+                                <color key="backgroundColor" red="0.58772219410386906" green="0.80271978580000058" blue="0.86078912019729614" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="GYs-hk-bUL"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Randomize!">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Black" family="Avenir" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="heroRollDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R6o-dL-S6c"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ec8-Il-fBk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2f7-gE-gL9"/>
+                            <constraint firstAttribute="trailing" secondItem="Ec8-Il-fBk" secondAttribute="trailing" id="2zq-QJ-uE3"/>
+                            <constraint firstItem="7WR-Rz-6b6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="30Q-Kf-6sw"/>
+                            <constraint firstItem="vlc-Kl-3ZA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="32C-ux-IDa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OpO-HF-NBZ" secondAttribute="trailing" constant="16" id="6TA-zP-R0J"/>
+                            <constraint firstItem="tW6-zs-krH" firstAttribute="top" secondItem="vlc-Kl-3ZA" secondAttribute="bottom" constant="16" id="9xj-ih-8xo"/>
+                            <constraint firstAttribute="bottom" secondItem="Ec8-Il-fBk" secondAttribute="bottom" id="JqT-6y-3Dv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7WR-Rz-6b6" secondAttribute="trailing" constant="16" id="RIH-WS-dk6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="OpO-HF-NBZ" secondAttribute="bottom" constant="16" id="SB1-gd-lg4"/>
+                            <constraint firstItem="7WR-Rz-6b6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="UO7-Vr-Rtx"/>
+                            <constraint firstItem="tW6-zs-krH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="UyP-xP-qkd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tW6-zs-krH" secondAttribute="trailing" constant="16" id="nQp-dw-thC"/>
+                            <constraint firstItem="vlc-Kl-3ZA" firstAttribute="top" secondItem="7WR-Rz-6b6" secondAttribute="bottom" constant="16" id="qOY-F7-Dc9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vlc-Kl-3ZA" secondAttribute="trailing" constant="16" id="tqd-fE-9yD"/>
+                            <constraint firstItem="Ec8-Il-fBk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ymw-ub-bbU"/>
+                            <constraint firstItem="OpO-HF-NBZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="zBy-Nh-Qm7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="heroAppearance" destination="eXA-Vw-yn1" id="hGc-rc-fAQ"/>
+                        <outlet property="heroBiography" destination="nab-Ua-EbG" id="Xd4-EY-CXA"/>
+                        <outlet property="heroImage" destination="7WR-Rz-6b6" id="Rgc-rg-Zar"/>
+                        <outlet property="heroName" destination="vlc-Kl-3ZA" id="5A2-Rl-8B0"/>
+                        <outlet property="heroPowerstats" destination="tW6-zs-krH" id="kGM-dd-cFn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="122.90076335877862" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hero" width="6131" height="4077"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
